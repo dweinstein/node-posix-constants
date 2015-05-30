@@ -15,6 +15,6 @@ function no_perm() {
   return -EPERM;
 }
 
-no_perm();
+process.exit(no_perm());
 ```
 
